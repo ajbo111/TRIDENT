@@ -1,0 +1,9 @@
+local PlaceId = game.PlaceId
+
+if PlaceId == 92604236 then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ajbo111/TRIDENT/main/TRIDENTHSLSIZEGUI'))()
+else
+	game.Players.LocalPlayer:kick("Please join High School Life to use TRIDENT's HSL Size Gui!")
+	wait(3)
+	game:Shutdown()
+end
